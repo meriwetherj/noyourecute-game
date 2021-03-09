@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;;
+    border: 3pt solid black;
+    font-size: 2em;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+    color: yellow;
+}
+
+#scoreboard{
+    display: flex;
+    color: grey;
+    background:
+    radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+    radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+    radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+    radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+    radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+    radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+    radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+    radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+    linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+    linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+    background-color: #300;
+    background-size: 100px 100px;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 10px solid #3f2a14;
+}
+ #scorecard1, #scorecard2{
+    background-color: white;
+    border-radius: 15px;
+    width: 25%;
+    height: 20vh;
+    margin: 10px;
+    font-size: 40px;
+    line-height: 1.5;
+    border: 10px solid #3f2a14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #spacebetween{
+      width: 75vw;
+  }
+
+  body{
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    margin:0;
+
+    /* You're Cute Button */
+  }
+  button{
+    background-color: red;
+    position:absolute;
+    width:100px;
+    height:60px;
+    -webkit-transition:top 0.3s ease;
+    transition:all 0.3s ease;
+    border-radius:50%;
+    border:none;
+    left:calc(50% - 50px);
+    top:calc(50vh - 30px);
+    box-shadow:inset -2px -3px 0 1px rgb(128,0,0);
+  }
+  button:active{
+    top:calc(50vh - 30px + 10px);
+  }
+  button:focus{
+    outline:none; 
+  }
+
+   /* comment bubble */
+  .speech-bubble {
+    background: linear-gradient(to bottom, #5555ff 0%, #cc99ff 100%);
+    border: 1px solid #c8c8c8;
+    border-radius: 20px;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    color: white;
+    font-size: 3em;
+}
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: #cc99ff transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+/* girl 1 */
+
+.girl1svg{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+/* girl 2 */
+.girl2svg{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
